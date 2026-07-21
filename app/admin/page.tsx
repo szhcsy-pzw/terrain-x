@@ -172,15 +172,16 @@ export default function AdminPage() {
                 <ol className="mt-4 space-y-3 text-sm leading-6 text-rock-600">
                   <li><b className="text-rock-900">1.</b> 在各模块中直接改价格、描述，或隐藏某个产品。</li>
                   <li><b className="text-rock-900">2.</b> 改完点右上角「保存并发布」，前台页面立即生效。</li>
-                  <li><b className="text-rock-900">3.</b> 「数据导出」可下载 JSON 备份，部署时合并进代码仓库。</li>
+                  <li><b className="text-rock-900">3.</b> 「数据导出」可下载 <code className="rounded bg-rock-100 px-1 py-0.5 font-mono text-xs">seed.json</code>，交给我落回代码仓库，部署后即持久化。</li>
                 </ol>
               </div>
               <div className="card p-6">
                 <h3 className="font-extrabold text-rock-950">架构说明</h3>
                 <p className="mt-4 text-sm leading-6 text-rock-600">
-                  本地预览版的修改保存在浏览器 localStorage（key: sando_admin_v2），<b>不会</b>改动源码。
-                  正式上线时，建议把「数据导出」的 JSON 合并回 <code className="rounded bg-rock-100 px-1.5 py-0.5 font-mono text-xs">lib/catalog.ts</code>，
-                  或接入 GitHub Contents API / 自有后端（数据层已预留替换点）。
+                   本地预览版的修改保存在浏览器 localStorage（key: sando_admin_v2），<b>不会</b>改动源码。
+                  正式上线时，把「数据导出」下载的 <code className="rounded bg-rock-100 px-1.5 py-0.5 font-mono text-xs">seed.json</code> 交给我落回仓库的
+                  <code className="rounded bg-rock-100 px-1.5 py-0.5 font-mono text-xs">data/seed.json</code> 并提交，
+                  部署后即为全站默认内容（含图片），不再依赖浏览器缓存。
                 </p>
               </div>
             </div>
@@ -578,12 +579,14 @@ function DataAdmin({ data, onImport }: { data: CatalogData; onImport: (d: Catalo
   return (
     <div className="grid gap-5 lg:grid-cols-3">
       <div className="card p-6">
-        <h3 className="font-extrabold text-rock-950">导出数据</h3>
+        <h3 className="font-extrabold text-rock-950">导出数据（= 部署用 seed）</h3>
         <p className="mt-3 text-sm leading-6 text-rock-500">
-          把当前全部站点数据（含未保存的修改）导出为 JSON，用于备份或合并进代码仓库。
+          把当前全部站点数据（含未保存的修改、已上传图片的 base64）导出为 JSON。
+          这个文件的结构与仓库里的 <code className="rounded bg-rock-100 px-1.5 py-0.5 font-mono text-xs">data/seed.json</code> 完全一致——
+          <b>把它交给我落回代码并提交，部署后的站点就会显示你当前的全部内容</b>（含图片），不再依赖浏览器缓存。
         </p>
         <div className="mt-5 flex gap-3">
-          <button onClick={exportJson} className="btn-primary">⬇ 下载</button>
+          <button onClick={exportJson} className="btn-primary">⬇ 下载 seed.json</button>
           <button onClick={copyJson} className="btn-ghost">复制</button>
         </div>
       </div>

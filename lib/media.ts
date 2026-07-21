@@ -9,18 +9,23 @@
 // ============================================================
 
 import { useEffect, useState } from "react";
+// 已落库的部署默认图片（data/seed.json 的 media 字段）。后台上传图经导出→落库后，部署即生效。
+import seed from "@/data/seed.json";
 
 const MEDIA_KEY = "sando_media_v1";
 
 export type MediaMap = Record<string, string>; // key → base64 dataURL
 
+const SEED_MEDIA: MediaMap = (seed.media ?? {}) as MediaMap;
+
 export function loadMediaMap(): MediaMap {
-  if (typeof window === "undefined") return {};
+  const base: MediaMap = { ...SEED_MEDIA };
+  if (typeof window === "undefined") return base;
   try {
     const raw = window.localStorage.getItem(MEDIA_KEY);
-    return raw ? JSON.parse(raw) : {};
+    return raw ? { ...base, ...JSON.parse(raw) } : base;
   } catch {
-    return {};
+    return base;
   }
 }
 

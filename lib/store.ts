@@ -20,6 +20,16 @@ import {
 } from "./catalog";
 import { Bike, ComponentItem, OutdoorItem, SiteSettings } from "./types";
 import { defaultSiteSettings } from "./site-config";
+// 已落库的部署默认值（data/seed.json）。后台导出 JSON → 由我落回此文件后提交，部署即生效。
+import seed from "@/data/seed.json";
+
+const SEED_CATALOG: CatalogData = {
+  bikes: seed.bikes as unknown as Bike[],
+  hiking: seed.hiking as unknown as OutdoorItem[],
+  camping: seed.camping as unknown as OutdoorItem[],
+  components: seed.components as unknown as ComponentItem[],
+  settings: seed.settings as unknown as SiteSettings,
+};
 
 export interface CatalogData {
   bikes: Bike[];
@@ -42,14 +52,16 @@ export function defaultCatalog(): CatalogData {
 }
 
 export function loadCatalog(): CatalogData {
-  if (typeof window === "undefined") return defaultCatalog();
+  // base = 硬编码默认值(安全网) ⊕ 已落库默认值(seed.json)
+  const base: CatalogData = { ...defaultCatalog(), ...SEED_CATALOG };
+  if (typeof window === "undefined") return base;
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return defaultCatalog();
+    if (!raw) return base;
     const parsed = JSON.parse(raw) as CatalogData;
-    return { ...defaultCatalog(), ...parsed };
+    return { ...base, ...parsed };
   } catch {
-    return defaultCatalog();
+    return base;
   }
 }
 
