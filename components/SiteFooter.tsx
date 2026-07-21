@@ -16,7 +16,7 @@ export default function SiteFooter() {
     <footer className="mt-24 bg-rock-950 text-rock-300">
       <div className="container-x grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-2">
-          <MediaImage path="assets/logo/combo.svg" alt="SANDO × terrain-x" className="h-10 w-auto brightness-0 invert" />
+          <MediaImage path="assets/logo/sando-logo.png" alt="SANDO × terrain-x" className="h-11 w-auto" />
           <address className="mt-5 text-sm not-italic leading-6 text-rock-400">
             <b className="text-rock-200">{hqName}</b>
             <br />

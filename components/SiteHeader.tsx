@@ -25,7 +25,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-rock-100 bg-white/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-3">
-          <MediaImage path="assets/logo/combo.svg" alt="SANDO × terrain-x" className="h-9 w-auto" />
+          <MediaImage path="assets/logo/sando-logo.png" alt="SANDO × terrain-x" className="h-10 w-auto object-contain" />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
