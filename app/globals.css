@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --orange: #ff6b35;
+  --teal: #1fa98f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-rock-50 font-sans text-rock-900 antialiased;
+}
+
+::selection {
+  @apply bg-orange-500 text-white;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-site px-5 sm:px-8;
+  }
+  .kicker {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-orange-600;
+  }
+  .h-display {
+    @apply font-display font-semibold uppercase leading-none tracking-wide;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-orange-500 px-6 py-3 text-sm font-bold text-white transition hover:bg-orange-400 hover:shadow-lift;
+  }
+  .btn-dark {
+    @apply inline-flex items-center gap-2 rounded-full bg-rock-900 px-6 py-3 text-sm font-bold text-white transition hover:bg-rock-700;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full border border-rock-300 px-6 py-3 text-sm font-bold text-rock-800 transition hover:border-orange-500 hover:text-orange-600;
+  }
+  .card {
+    @apply rounded-2xl bg-white shadow-card ring-1 ring-rock-950/5 transition hover:shadow-lift;
+  }
+  .field {
+    @apply w-full rounded-lg border border-rock-200 bg-white px-3 py-2 text-sm outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100;
+  }
+  .label {
+    @apply mb-1 block text-xs font-semibold uppercase tracking-wider text-rock-500;
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Rest 充气垫">
+  <defs><radialGradient id="g" cx="32%" cy="28%" r="80%">
+    <stop offset="0%" stop-color="#E4F5F1"/><stop offset="100%" stop-color="#ffffff"/></radialGradient></defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g transform="translate(250,150) scale(3.0)" style="color:#157E6C"><g fill="none" stroke="currentColor" stroke-width="4"><rect x="28" y="28" width="44" height="44" rx="6"/><path d="M38 50 h24 M50 38 v24"/></g></g>
+  <rect x="40" y="510" width="200" height="44" rx="22" fill="#1FA98F"/>
+  <text x="140" y="540" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#fff" letter-spacing="1">terrain-x</text>
+  <text x="40" y="58" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#157E6C" letter-spacing="2">露营装备</text>
+  <text x="40" y="470" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" fill="#222">Rest 充气垫</text>
+</svg>
