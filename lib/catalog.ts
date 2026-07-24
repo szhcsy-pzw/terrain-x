@@ -95,12 +95,12 @@ export const bikes: Bike[] = [
     "name": "X1 硬尾XC",
     "sub": "入门级 · 29″ 铝合金硬尾",
     "price": "¥4,299",
-    "priceNote": "起",
+    "priceNote": "参考价 · 以实际为准",
     "accent": "orange",
     "specs": [
       {
         "k": "车架",
-        "v": "6061铝液压成型"
+        "v": "6061铝半内走线"
       },
       {
         "k": "前叉",
@@ -108,24 +108,36 @@ export const bikes: Bike[] = [
       },
       {
         "k": "变速",
-        "v": "蓝图 T5 1×11"
+        "v": "蓝图 T7 1×12"
+      },
+      {
+        "k": "飞轮",
+        "v": "日晖 10-50T"
+      },
+      {
+        "k": "链条",
+        "v": "KMC X12"
       },
       {
         "k": "刹车",
-        "v": "TEKTRO M275 油压"
+        "v": "TEKTRO 四活塞 180/160"
       },
       {
         "k": "轮组",
-        "v": "久裕 29×2.25"
+        "v": "久裕 29″ 铝轮"
+      },
+      {
+        "k": "轮胎",
+        "v": "CST 2.25"
       },
       {
         "k": "整备",
-        "v": "≈13.5kg"
+        "v": "≈13.2kg"
       }
     ],
-    "intro": "X1 是山度的入门硬尾，把预算花在刀刃上：全车国产顶级配套，整车附「零件护照」，公开每颗零件的规格、品牌与山度加价率，拒绝虚高溢价。",
+    "intro": "X1 是山度的入门硬尾，把预算花在刀刃上：全车国产一线配套，整车附「零件护照」，公开每颗零件的规格、品牌与山度加价率，拒绝虚高溢价。",
     "features": [
-      "蓝图 T5 1×11 单盘系统，告别前拨，操作更简洁",
+      "蓝图 T7 1×12 单盘系统，告别前拨，操作更简洁",
       "SR SUNTOUR XCR 32 气压前叉，120mm 行程应对林道",
       "山度几何™ S/M/L/XL 亚洲体型尺码，一上车就合身",
       "整车 BOM 透明，公开加价率，拒绝虚高溢价"
@@ -133,11 +145,11 @@ export const bikes: Bike[] = [
     "en": {
       "name": "X1 Hardtail XC",
       "sub": "Entry · 29″ alloy hardtail",
-      "intro": "X1 is SANDO's entry hardtail — every yuan goes to the essentials: full Chinese top-tier spec, with a transparent \"Parts Passport\" that discloses each part's spec, brand and SANDO's markup rate — no inflated premium.",
+      "intro": "X1 is SANDO's entry hardtail — every yuan goes to the essentials: full Chinese first-tier spec, with a transparent \"Parts Passport\" that discloses each part's spec, brand and SANDO's markup rate — no inflated premium.",
       "specs": [
         {
           "k": "Frame",
-          "v": "6061 alloy hydroformed"
+          "v": "6061 alloy semi-internal"
         },
         {
           "k": "Fork",
@@ -145,23 +157,35 @@ export const bikes: Bike[] = [
         },
         {
           "k": "Drivetrain",
-          "v": "L-TWOO T5 1×11"
+          "v": "L-TWOO T7 1×12"
+        },
+        {
+          "k": "Cassette",
+          "v": "SUNSHINE 10-50T"
+        },
+        {
+          "k": "Chain",
+          "v": "KMC X12"
         },
         {
           "k": "Brakes",
-          "v": "TEKTRO M275 hydraulic"
+          "v": "TEKTRO 4-piston 180/160"
         },
         {
           "k": "Wheelset",
-          "v": "NOVATEC 29×2.25"
+          "v": "NOVATEC 29″ alloy"
+        },
+        {
+          "k": "Tire",
+          "v": "CST 2.25"
         },
         {
           "k": "Weight",
-          "v": "≈13.5kg"
+          "v": "≈13.2kg"
         }
       ],
       "features": [
-        "L-TWOO T5 1×11 single-ring — no front derailleur, simpler shifting",
+        "L-TWOO T7 1×12 single-ring — no front derailleur, simpler shifting",
         "SR SUNTOUR XCR 32 air fork, 120mm travel for the trail",
         "SANDO Geometry™ S/M/L/XL Asian-fit sizing — fits from the first ride",
         "Fully transparent BOM — no inflated brand premium"
@@ -222,28 +246,40 @@ export const bikes: Bike[] = [
     "name": "T1 进阶硬尾",
     "sub": "进阶级 · 29″ 内走线 + Flip Chip",
     "price": "¥6,499",
-    "priceNote": "起",
+    "priceNote": "参考价 · 以实际为准",
     "accent": "orange",
     "specs": [
       {
         "k": "车架",
-        "v": "6066铝 内走线"
+        "v": "6066铝 内走线 Flip Chip"
       },
       {
         "k": "前叉",
-        "v": "SR SUNTOUR X1 34 Air 140mm"
+        "v": "SR SUNTOUR X1 34 Air 140mm 线控"
       },
       {
         "k": "变速",
-        "v": "蓝图 T7 1×12"
+        "v": "蓝图 T9 碳导板 1×12"
+      },
+      {
+        "k": "飞轮",
+        "v": "日晖 10-51T"
       },
       {
         "k": "刹车",
-        "v": "TEKTRO M735 四活塞"
+        "v": "TEKTRO M735 四活塞 203/180"
       },
       {
         "k": "升降座管",
-        "v": "线控 125mm 标配"
+        "v": "KS 125mm 线控 标配"
+      },
+      {
+        "k": "轮组",
+        "v": "久裕 30mm 内宽"
+      },
+      {
+        "k": "轮胎",
+        "v": "玛吉斯 2.4 真空"
       },
       {
         "k": "整备",
@@ -254,8 +290,8 @@ export const bikes: Bike[] = [
     "features": [
       "6066 铝合金内走线车架，外观更干净、防护更好",
       "Flip Chip 几何芯片，6 档微调适应爬坡/下坡",
-      "蓝图 T7 1×12 十二速，齿比更绵密",
-      "线控升降座管 125mm 标配，站姿冲坡更稳"
+      "蓝图 T9 碳导板 1×12，轻量且变速精准",
+      "KS 125mm 线控升降座管标配，站姿冲坡更稳"
     ],
     "en": {
       "name": "T1 Trail Hardtail",
@@ -272,15 +308,27 @@ export const bikes: Bike[] = [
         },
         {
           "k": "Drivetrain",
-          "v": "L-TWOO T7 1×12"
+          "v": "L-TWOO T9 1×12 carbon guide"
+        },
+        {
+          "k": "Cassette",
+          "v": "SUNSHINE 10-51T"
         },
         {
           "k": "Brakes",
-          "v": "TEKTRO M735 4-piston"
+          "v": "TEKTRO M735 4-piston 203/180"
         },
         {
           "k": "Dropper",
-          "v": "125mm cable dropper std"
+          "v": "KS 125mm cable dropper std"
+        },
+        {
+          "k": "Wheelset",
+          "v": "NOVATEC 30mm internal"
+        },
+        {
+          "k": "Tire",
+          "v": "MAXXIS 2.4 tubeless"
         },
         {
           "k": "Weight",
@@ -290,8 +338,8 @@ export const bikes: Bike[] = [
       "features": [
         "6066 alloy frame with internal cable routing — cleaner look, better protection",
         "Flip Chip geometry chip — 6-step tuning for climb/descent",
-        "L-TWOO T7 1×12 twelve-speed — tighter gear spacing",
-        "125mm cable-controlled dropper post standard — steadier standing climbs"
+        "L-TWOO T9 carbon-guide 1×12 — light and precise",
+        "KS 125mm cable-controlled dropper post standard — steadier standing climbs"
       ]
     }
   },
@@ -302,8 +350,8 @@ export const bikes: Bike[] = [
     "sizes": [
       {
         "code": "S",
-        "h": "160-170cm",
-        "inseam": "74-78cm",
+        "h": "158-168cm",
+        "inseam": "72-76cm",
         "frameSku": "SANDO-F1-FR-S",
         "crank": 170,
         "dropper": 150,
@@ -313,8 +361,8 @@ export const bikes: Bike[] = [
       },
       {
         "code": "M",
-        "h": "170-180cm",
-        "inseam": "78-83cm",
+        "h": "168-178cm",
+        "inseam": "76-82cm",
         "frameSku": "SANDO-F1-FR-M",
         "crank": 170,
         "dropper": 150,
@@ -324,8 +372,8 @@ export const bikes: Bike[] = [
       },
       {
         "code": "L",
-        "h": "180-190cm",
-        "inseam": "83-89cm",
+        "h": "178-188cm",
+        "inseam": "82-88cm",
         "frameSku": "SANDO-F1-FR-L",
         "crank": 175,
         "dropper": 150,
@@ -335,8 +383,8 @@ export const bikes: Bike[] = [
       },
       {
         "code": "XL",
-        "h": "188-198cm",
-        "inseam": "89-95cm",
+        "h": "186-196cm",
+        "inseam": "88-94cm",
         "frameSku": "SANDO-F1-FR-XL",
         "crank": 175,
         "dropper": 150,
@@ -349,20 +397,24 @@ export const bikes: Bike[] = [
     "name": "F1 全避震",
     "sub": "竞赛级 · 29″ 140/130mm 全避震",
     "price": "¥12,999",
-    "priceNote": "起",
+    "priceNote": "参考价 · 以实际为准",
     "accent": "orange",
     "specs": [
       {
         "k": "车架",
-        "v": "铝 四转点 全避震（平台待定）"
+        "v": "碳前三角+铝后三角 140/130mm（公有平台）"
       },
       {
         "k": "前叉",
         "v": "SR SUNTOUR Durolux 36 Air 150mm"
       },
       {
+        "k": "后胆",
+        "v": "渐进式 130-150mm"
+      },
+      {
         "k": "变速",
-        "v": "蓝图 T9 1×12 碳导板"
+        "v": "蓝图 T9 1×12"
       },
       {
         "k": "刹车",
@@ -370,36 +422,44 @@ export const bikes: Bike[] = [
       },
       {
         "k": "升降座管",
-        "v": "线控 150mm 标配"
+        "v": "KS 150mm 线控 标配"
+      },
+      {
+        "k": "轮组",
+        "v": "久裕 碳铝轮组"
       },
       {
         "k": "整备",
-        "v": "≈14kg"
+        "v": "≈14.0kg（铝）· 12.8kg（碳圈）"
       }
     ],
-    "intro": "F1 是山度的竞赛级全避震，硬核通过性与轻量并举；悬挂采用公有四转点平台，暂缓自研与碳纤维版本。",
+    "intro": "F1 是山度的竞赛级全避震，硬核通过性与轻量并举；车架采用碳前三角+铝后三角的公有悬挂平台，暂缓自研与碳纤维版本。",
     "features": [
-      "140/130mm 四转点全避震，竞赛级几何",
-      "Durolux 36 气压前叉 + 后胆，硬核路况也稳",
-      "蓝图 T9 碳导板 1×12，轻量且变速精准",
+      "140/130mm 全避震，竞赛级几何",
+      "Durolux 36 气压前叉 + 渐进式后胆，硬核路况也稳",
+      "蓝图 T9 1×12，轻量且变速精准",
       "TEKTRO Orion 四活塞刹车，长下坡不掉链子"
     ],
     "en": {
       "name": "F1 Full Suspension",
       "sub": "Race · 29″ 140/130mm full suspension",
-      "intro": "F1 is SANDO's race-grade full suspension — hardcore capability with low weight; uses a public four-bar suspension platform, with in-house development and the carbon version deferred.",
+      "intro": "F1 is SANDO's race-grade full suspension — hardcore capability with low weight; uses a public four-bar suspension platform (carbon front triangle + alloy rear), with in-house development and the carbon version deferred.",
       "specs": [
         {
           "k": "Frame",
-          "v": "Alloy four-bar full suspension (platform TBD)"
+          "v": "Carbon front + alloy rear, 140/130mm (public platform)"
         },
         {
           "k": "Fork",
           "v": "SR SUNTOUR Durolux 36 Air 150mm"
         },
         {
+          "k": "Rear shock",
+          "v": "Progressive 130-150mm"
+        },
+        {
           "k": "Drivetrain",
-          "v": "L-TWOO T9 1×12 carbon guide"
+          "v": "L-TWOO T9 1×12"
         },
         {
           "k": "Brakes",
@@ -407,17 +467,21 @@ export const bikes: Bike[] = [
         },
         {
           "k": "Dropper",
-          "v": "150mm cable dropper std"
+          "v": "KS 150mm cable dropper std"
+        },
+        {
+          "k": "Wheelset",
+          "v": "NOVATEC carbon-alloy"
         },
         {
           "k": "Weight",
-          "v": "≈14kg"
+          "v": "≈14.0kg (alloy) · 12.8kg (carbon rim)"
         }
       ],
       "features": [
-        "140/130mm four-bar full suspension, race geometry",
-        "Durolux 36 air fork + rear shock — stable on hardcore terrain",
-        "L-TWOO T9 carbon-guide 1×12 — light and precise",
+        "140/130mm full suspension, race geometry",
+        "Durolux 36 air fork + progressive rear shock — stable on hardcore terrain",
+        "L-TWOO T9 1×12 — light and precise",
         "TEKTRO Orion four-piston brakes — no fade on long descents"
       ]
     }
@@ -916,34 +980,6 @@ export const components: ComponentItem[] = [
     }
   },
   {
-    "id": "drivetrain-01",
-    "g": "drivetrain",
-    "icon": "⚙️",
-    "name": "蓝图 T5 指拨",
-    "brand": "L-TWOO",
-    "spec": "1×11 双向释放 铝合金",
-    "price": "¥100",
-    "fit": "X1",
-    "en": {
-      "name": "L-TWOO T5 Shifter",
-      "spec": "1×11 dual-release alloy"
-    }
-  },
-  {
-    "id": "drivetrain-02",
-    "g": "drivetrain",
-    "icon": "⚙️",
-    "name": "蓝图 T5 后拨",
-    "brand": "L-TWOO",
-    "spec": "1×11 阻尼稳链",
-    "price": "¥150",
-    "fit": "X1",
-    "en": {
-      "name": "L-TWOO T5 Rear Derailleur",
-      "spec": "1×11 clutch chain stability"
-    }
-  },
-  {
     "id": "drivetrain-03",
     "g": "drivetrain",
     "icon": "⚙️",
@@ -972,20 +1008,6 @@ export const components: ComponentItem[] = [
     }
   },
   {
-    "id": "drivetrain-05",
-    "g": "drivetrain",
-    "icon": "📡",
-    "name": "日晖 飞轮 11速",
-    "brand": "SUNSHINE",
-    "spec": "11-46T 精冲 CNC",
-    "price": "¥100",
-    "fit": "X1",
-    "en": {
-      "name": "SUNSHINE 11-sp Cassette",
-      "spec": "11-46T stamped CNC"
-    }
-  },
-  {
     "id": "drivetrain-06",
     "g": "drivetrain",
     "icon": "📡",
@@ -997,20 +1019,6 @@ export const components: ComponentItem[] = [
     "en": {
       "name": "SUNSHINE 12-sp Cassette",
       "spec": "10-50T CNC hollow"
-    }
-  },
-  {
-    "id": "drivetrain-07",
-    "g": "drivetrain",
-    "icon": "🔗",
-    "name": "KMC X11 链条",
-    "brand": "KMC",
-    "spec": "高精度滚子 X快扣",
-    "price": "¥60",
-    "fit": "X1",
-    "en": {
-      "name": "KMC X11 Chain",
-      "spec": "High-precision roller X-link"
     }
   },
   {
@@ -1039,20 +1047,6 @@ export const components: ComponentItem[] = [
     "en": {
       "name": "PROWHEEL Chainring",
       "spec": "30-32T one-piece CNC"
-    }
-  },
-  {
-    "id": "brake-01",
-    "g": "brake",
-    "icon": "🛑",
-    "name": "TEKTRO M275 油压碟刹",
-    "brand": "TEKTRO",
-    "spec": "双边 矿物油 180/160",
-    "price": "¥250",
-    "fit": "X1",
-    "en": {
-      "name": "TEKTRO M275 Hydraulic Disc",
-      "spec": "Dual-piston mineral oil 180/160"
     }
   },
   {
@@ -1389,74 +1383,57 @@ export const bikeBOM: Record<string, BomRow[]> = {
     },
     {
       "no": 3,
-      "part": "指拨",
-      "spec": "T5 1×11",
+      "part": "指拨+后拨",
+      "spec": "1×12 双向释放 阻尼",
       "brand": "蓝图 L-TWOO",
-      "craft": "双向释放，铝合金本体",
+      "craft": "双向释放，阻尼稳链",
       "supplier": "珠海",
-      "cost": "¥100",
-      "cid": "drivetrain-01",
+      "cost": "¥215",
+      "cid": "drivetrain-03",
       "en": {
-        "part": "Shifter",
+        "part": "Shifter + RD",
         "brand": "L-TWOO",
-        "craft": "Dual-release, alloy body",
+        "craft": "Dual-release, clutch stabilises chain",
         "supplier": "Zhuhai",
-        "spec": "1×11 dual-release alloy"
+        "spec": "1×12 dual-release clutch"
       }
     },
     {
       "no": 4,
-      "part": "后拨",
-      "spec": "T5 1×11 带阻尼",
-      "brand": "蓝图 L-TWOO",
-      "craft": "阻尼稳链，防止链条跳动",
-      "supplier": "珠海",
+      "part": "飞轮",
+      "spec": "10-50T 12速",
+      "brand": "日晖 SUNSHINE",
+      "craft": "CNC 镂空",
+      "supplier": "深圳",
       "cost": "¥150",
-      "cid": "drivetrain-02",
+      "cid": "drivetrain-06",
       "en": {
-        "part": "Rear Derailleur",
-        "brand": "L-TWOO",
-        "craft": "Clutch stabilises chain, prevents bounce",
-        "supplier": "Zhuhai",
-        "spec": "1×11 clutch chain stability"
+        "part": "Cassette",
+        "brand": "SUNSHINE",
+        "craft": "CNC hollow",
+        "supplier": "Shenzhen",
+        "spec": "10-50T CNC hollow"
       }
     },
     {
       "no": 5,
-      "part": "飞轮",
-      "spec": "11-46T 11速",
-      "brand": "日晖 SUNSHINE",
-      "craft": "精冲 + 热处理，CNC 镂空",
-      "supplier": "深圳",
-      "cost": "¥100",
-      "cid": "drivetrain-05",
-      "en": {
-        "part": "Cassette",
-        "brand": "SUNSHINE",
-        "craft": "Stamped + heat-treated, CNC hollow",
-        "supplier": "Shenzhen",
-        "spec": "11-46T stamped CNC"
-      }
-    },
-    {
-      "no": 6,
       "part": "链条",
-      "spec": "X11",
+      "spec": "X12",
       "brand": "KMC 桂盟",
       "craft": "高精度滚子链，X 桥快扣",
       "supplier": "深圳桂盟",
-      "cost": "¥60",
-      "cid": "drivetrain-07",
+      "cost": "¥85",
+      "cid": "drivetrain-08",
       "en": {
         "part": "Chain",
         "brand": "KMC",
         "craft": "High-precision roller, X-link",
         "supplier": "Shenzhen (KMC)",
-        "spec": "High-precision roller X-link"
+        "spec": "High-precision 12-sp"
       }
     },
     {
-      "no": 7,
+      "no": 6,
       "part": "牙盘",
       "spec": "32T 一体",
       "brand": "PROWHEEL 浩盟",
@@ -1473,7 +1450,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 8,
+      "no": 7,
       "part": "中轴",
       "spec": "BSA 螺纹",
       "brand": "配套",
@@ -1490,24 +1467,24 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 9,
+      "no": 8,
       "part": "刹车",
-      "spec": "M275 油压",
+      "spec": "M735 四活塞",
       "brand": "TEKTRO 彦豪",
-      "craft": "双边制动，矿物油",
+      "craft": "四活塞，矿物油",
       "supplier": "台湾/深圳",
-      "cost": "¥250",
-      "cid": "brake-01",
+      "cost": "¥375",
+      "cid": "brake-02",
       "en": {
         "part": "Brake",
         "brand": "TEKTRO",
-        "craft": "Dual-piston, mineral oil",
+        "craft": "4-piston, mineral oil",
         "supplier": "Taiwan/Shenzhen",
-        "spec": "Dual-piston mineral oil 180/160"
+        "spec": "4-piston mineral oil 203/180"
       }
     },
     {
-      "no": 10,
+      "no": 9,
       "part": "碟片",
       "spec": "180/160mm",
       "brand": "TEKTRO",
@@ -1524,7 +1501,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 11,
+      "no": 10,
       "part": "轮组",
       "spec": "29″ 铝合金",
       "brand": "久裕 NOVATEC",
@@ -1541,7 +1518,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 12,
+      "no": 11,
       "part": "轮胎",
       "spec": "29×2.25",
       "brand": "正新 CST",
@@ -1558,7 +1535,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 13,
+      "no": 12,
       "part": "把组",
       "spec": "铝把横/把立/座管",
       "brand": "UNO",
@@ -1575,7 +1552,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 14,
+      "no": 13,
       "part": "坐垫",
       "spec": "运动型",
       "brand": "VELO",
@@ -1592,7 +1569,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 15,
+      "no": 14,
       "part": "脚踏",
       "spec": "平板",
       "brand": "维格 WELLGO",
@@ -1609,7 +1586,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 16,
+      "no": 15,
       "part": "碗组",
       "spec": "锥管",
       "brand": "NECO",
@@ -1626,7 +1603,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 17,
+      "no": 16,
       "part": "把套",
       "spec": "锁死",
       "brand": "ODI",
@@ -1643,7 +1620,7 @@ export const bikeBOM: Record<string, BomRow[]> = {
       }
     },
     {
-      "no": 18,
+      "no": 17,
       "part": "杂项",
       "spec": "线管/螺丝",
       "brand": "通用",

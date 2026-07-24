@@ -10,7 +10,7 @@ export default function ManualPage() {
       <section className="bg-rock-950 py-16 text-white">
         <div className="container-x flex flex-wrap items-end justify-between gap-4">
           <div>
-            <p className="kicker !text-orange-500">Owner&apos;s Manual · V1.0</p>
+            <p className="kicker !text-orange-500">Owner&apos;s Manual · V1.1</p>
             <h1 className="h-display mt-4 text-5xl">{t("support.manual")}</h1>
             <p className="mt-3 max-w-2xl text-rock-300">
               {lang === "en"

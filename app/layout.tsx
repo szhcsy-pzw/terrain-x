@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | SANDO × terrain-x",
   },
   description:
-    "SANDO 山地车 X1/T1/F1 阶梯进阶，零件护照全透明；terrain-x 户外覆盖徒步与露营。国产顶级配套，专业而诚实。",
+    "SANDO 山地车 X1/T1/F1 阶梯进阶，零件护照全透明；terrain-x 户外覆盖徒步与露营。国产一线配套，专业而诚实。",
 };
 
 export default function RootLayout({

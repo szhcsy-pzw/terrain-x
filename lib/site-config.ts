@@ -7,10 +7,10 @@ export const defaultSiteSettings: SiteSettings = {
   heroTitle1: "山有度",
   heroTitle2: "行无疆",
   heroSubtitle:
-    "SANDO 以国产顶级配套与供应链透明重塑山地车，terrain-x 以全场景装备覆盖徒步与露营。一个品牌矩阵，从山脚到营地，专业而诚实。",
+    "SANDO 以国产一线配套与供应链透明重塑山地车，terrain-x 以全场景装备覆盖徒步与露营。一个品牌矩阵，从山脚到营地，专业而诚实。",
   differentiators: [
     { title: "供应链透明", desc: "每辆车附「零件护照」，公开全部零件的品牌、型号与山度加价率。" },
-    { title: "国产顶级配套", desc: "全系蓝图 T 系列 + KMC + 日晖 + 久裕，国产 ≠ 低端。" },
+    { title: "国产一线配套", desc: "全系蓝图 1×12 + KMC + 久裕 + 正新/玛吉斯，国产 ≠ 低端。" },
     { title: "模块化升级", desc: "基础整车 + 轮组/变速/刹车升级包，标准化 Boost 148/110、BSA 接口。" },
     { title: "山度几何™", desc: "基于亚洲体型优化的 Asian Fit 几何，持续迭代形成技术资产。" },
     { title: "社区共创", desc: "车型配置社区投票 + 专业调校，每款车发布「配置征询帖」。" },
